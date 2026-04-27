@@ -1,3 +1,6 @@
+CREATE DATABASE library;
+USE library;
+
 CREATE TABLE authors (
     id INT AUTO_INCREMENT PRIMARY KEY,
     full_name VARCHAR(255) NOT NULL,
